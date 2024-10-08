@@ -37,6 +37,7 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_DB531D6F3D6944D287924E1E3ACF7EC5 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BD1A5AC90CCA4582B490CBE9858472B3 }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_23681EEBAD7C44C2B94DC6E5D18D9FE4 }}
+          allow-no-subscriptions: true # Add this line if you have no subscriptions or want to bypass subscription check
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
