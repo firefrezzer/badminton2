@@ -1,0 +1,122 @@
+/* Basic styling for body and header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for better contrast */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(255, 0, 0); /* Change navbar color to red */
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    margin: 0 15px; /* Add space between navbar buttons */
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #e4e4e4; /* Slightly darker red on hover */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Course container styles */
+.course-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto; /* Center the course container */
+    border-radius: 5px;
+    max-width: 600px; /* Set a maximum width for the container */
+    background-color: white; /* White background for course cards */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Add shadow for depth */
+    text-align: center; /* Center text in the course container */
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 81, 255); /* Red background for the header */
+    color: white; /* White text for better contrast */
+    padding: 10px;
+    border-radius: 5px 5px 0 0; /* Rounded corners for the header */
+}
+
+.course-details {
+    margin-top: 10px;
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    margin: 15px auto; /* Space between the course containers and buttons */
+}
+
+.info-button, .join-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px; /* Add horizontal space between buttons */
+    font-size: 16px; /* Increase font size for better readability */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.info-button {
+    background-color: #007BFF; /* Blue color for Info button */
+    color: white;
+}
+
+.join-button {
+    background-color: #28A745; /* Green color for Join button */
+    color: white;
+}
+
+/* Add hover effect for buttons */
+.info-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.join-button:hover {
+    background-color: #a8a8a8; /* Darker green on hover */
+}
+
+ h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);}
+ 

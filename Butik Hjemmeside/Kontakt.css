@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    opacity: 1.0;
+    padding: -10%;
+}
+    
+/* First image (main person image) */
+#image1 {
+    width: auto; 
+    max-width: 25%; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Add margin-top to move it down */
+}
+
+/* Second image (placeholder image) */
+#image2 {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the placeholder round */
+    vertical-align: top; /* Aligns the second image to the top of the first one */
+}
+/* Container for images */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Adjusting the position of the second image */
+#image2 {
+    position: absolute;
+    top: 300px; /* Adjust the value to move it up */
+    left: 45%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    opacity: 1.0;
+    padding: -759%;
+    
+}
